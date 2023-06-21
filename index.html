@@ -1,0 +1,41 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+    <head>
+    <title>Palavra Imagem Imagem Palavra</title>
+        <style type="text/css">
+         body{background: #000 url('x') fixed; text-align: center; margin-top: 15px; padding: 0; line-height: 50px; color: #808080; overflow-x: hidden; height:100%; font: 8px courier new;}
+         #conteudo {background: #000000; position: relative;  margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 10px; width: 95%; padding: 10px; max-width: 800px }
+         img {width: 88%;}
+         .note {font-size: 150%; margin-bottom: 10px;}
+    
+   
+        </style>
+    </head>
+
+    <body>
+
+    <div id="conteudo">
+    
+    <center>
+    <div id="aleatorio"></div>
+
+    <script type="text/javascript">
+        (function() {
+    // Necessário declarar a variável img 
+    var img = ["https://live.staticflickr.com/65535/52990328835_cf7222dea0_o.gif",
+    "https://live.staticflickr.com/65535/52990412143_423f08ff46_o.gif", 
+    "https://live.staticfljickr.com/65535/52990320310_74946220d0_o.gif",
+    "https://live.staticflickr.com/65535/52990490843_b9b58eb6cb_o.gif",
+    "https://live.staticflickr.com/65535/52990170309_befd014d52_o.gif"]
+    var mudar = Math.floor(Math.random() * img.length);
+    document.getElementById("aleatorio").innerHTML = "<img src='" + img[mudar] + "'>" })(); 
+    </script>
+</center>
+<br>
+<div class="note"><b>Palavra Imagem Imagem Palavra</b></div>
+por Anna de Aguiar e Santos, Angela Nunes Felício e Lúcia Leiko Ishikawa
+<br><i>para Multimídia e Intermídia</i>
+
+    </div>
+    </body>
+    
